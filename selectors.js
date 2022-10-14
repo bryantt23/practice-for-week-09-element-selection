@@ -15,12 +15,19 @@ const select = () => {
   /* Section 2 */
   // 4. Get inner span with text "you"
   // Your code here
+  console.log(document.querySelectorAll('span'));
+
   // 5. Get all children of element "wrapper"
   // Your code here
+  console.log(document.querySelector('#wrapper').childNodes);
   // 6. Get all odd number list items in the list
   // Your code here
+  console.log(document.querySelectorAll('.odd'));
+
   // 7. Get all even number list items in the list
   // Your code here
+  console.log(document.querySelectorAll('ol li:nth-child(even)'));
+
   /* Section 3 */
   // 8. Get all tech companies without a class name
   // Your code here
