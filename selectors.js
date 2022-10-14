@@ -31,10 +31,13 @@ const select = () => {
   /* Section 3 */
   // 8. Get all tech companies without a class name
   // Your code here
+  console.log(document.querySelectorAll('#three a:not([class])'));
   // 9. Get "Amazon" list element
   // Your code here
+  console.log(document.querySelector('.shopping'));
   // 10. Get all unicorn list elements (not the image element)
   // Your code here
+  console.log(document.querySelectorAll('.unicorn'));
 };
 
 window.onload = select;
